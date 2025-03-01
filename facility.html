@@ -1,0 +1,107 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AL HASSSAN ACADEMY</title>
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/04403d94d2.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="why us.html">WHY US</a></li>
+                    <li><a href="facility.html">FACILITIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <section class="sub-header">
+        <div class="text-box">
+            <h1>Facility</h1>
+        </div>
+    </section>
+    
+
+<!---------- Facilities ---------->
+    
+<section class="facility">
+    <h1>Our Facilities</h1>
+    <p>We are committed to providing a safe, modern, and inspiring environment where students can thrive
+         academically, spiritually, and physically.</p>
+    <div class="row">
+        <div class="facility-col">
+            <i class="fas fa-chalkboard"></i>
+            <h3>Spacious Classrooms</h3>
+            <p>Our classrooms are designed to enhance academic excellence while providing a peaceful and engaging atmosphere for students to thrive.</p>
+        </div>
+        <div class="facility-col">
+            <i class="fas fa-running"></i>
+            <h3>Activities</h3>
+            <p>We nurture well-rounded students who are confident, skilled, and prepared for the future.</p>
+        </div>
+        <div class="facility-col">
+            <i class="fas fa-atom"></i>
+            <h3>Programes</h3>
+            <p>Our programs are designed to nurture academic excellence, spiritual growth, and life skills, ensuring students excel in both Dunya and Akhirah.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="facility-col">
+            <i class="fas fa-desktop"></i>
+            <h3>Computer Lab</h3>
+            <p>With a focus on innovation and digital literacy, our Computer Science classes prepare students for the future.</p>
+        </div>
+        <div class="facility-col">
+            <i class="fas fa-bus"></i>
+            <h3>Transport</h3>
+            <p>we ensure that your child’s journey to and from school is safe, efficient, and stress-free.</p>
+        </div>
+        <div class="facility-col">
+            <i class="fas fa-snowboarding"></i>
+            <h3>Play Area</h3>
+            <p>Our play areas help students develop coordination, teamwork, and a love for physical activity while ensuring a safe, enjoyable, and faith-centered environment.</p>
+        </div>
+    </div>
+        
+</section>
+    
+
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <div class="">
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>&#169;2025 Al Hassan Academy. All rights reserved.</p>
+    </div>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    

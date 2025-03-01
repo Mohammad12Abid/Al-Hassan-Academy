@@ -1,0 +1,98 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AL HASSSAN ACADEMY</title>
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<script src="https://kit.fontawesome.com/04403d94d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="why us.html">WHY US</a></li>
+                    <li><a href="facility.html">FACILITIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <section class="sub-header">
+        <div class="text-box">
+            <h1>Why Us?</h1>
+        </div>
+    </section>
+    
+    
+<!---------- why us ----------->
+    
+<section class="why-us">
+    <h1>Why choose Us?</h1>
+    <p>At Al Hassan Academy, we believe in more than just academics.</p>
+    <div class="row">
+        <div class="why-us-col">
+            <h3>Islamic Values</h3>
+            <p>By intertwining academic excellence with Islamic values, we inspire students to pursue knowledge with purpose and integrity.</p>
+        </div>
+        <div class="why-us-col">
+            <h3>Dedicated Educators</h3>
+            <p>Our dedicated teachers focus on individualized learning, ensuring every student gets the attention and support they deserve.</p>
+        </div>
+        <div class="why-us-col">
+            <h3>Extracurricular Opportunities</h3>
+            <p>Learning doesn’t stop at the classroom door. We offer a wide range of extracurricular opportunities to help students discover their passions and unlock their potential.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="why-us-col">
+            <h3>Academic Rigor</h3>
+            <p>We set the highest standards for academic excellence, preparing students to excel in all areas of life while staying grounded in their faith.</p>
+        </div>
+        <div class="why-us-col">
+            <h3>Inclusive Community</h3>
+            <p>we believe every child belongs. We are more than a school—we are a family that celebrates diversity and fosters unity.</p>
+        </div>
+        <div class="why-us-col">
+            <h3>Comprehensive Curriculum</h3>
+            <p>From mathematics and science to language arts and Quranic studies, we ensure a balanced, comprehensive education that builds knowledge and character.</p>
+    </div>
+</section>
+    
+
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <div class="">
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>&#169;2025 Al Hassan Academy. All rights reserved.</p>
+    </div>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
