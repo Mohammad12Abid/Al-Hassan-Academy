@@ -90,6 +90,11 @@ nav .fa{
     color: #307f05;
 }
 
+.hero-btn:active{
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    color: #307f05;
+}
 
 @media(max-width: 700px)
 {
@@ -489,7 +494,17 @@ h3{
     text-decoration: none;
     color: #777;
 }
-
+@media(max-width:510px){
+    .contact-col div h5{
+        font-size: 12px;
+    }
+    .contact-col div .fa{
+        font-size: 14;
+    }
+    .contact-col div p{
+        font-size: 7px;
+    }
+}
 
 
 
